@@ -5,6 +5,11 @@ import java.net.ServerSocket;
 import java.net.Socket;
 import java.util.Date;
 
+
+/**
+ * 服务器
+ * 提供时间数据
+ */
 public class TimeServer {
 
     public void bind(int port) {

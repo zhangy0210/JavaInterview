@@ -4,6 +4,10 @@ import java.io.*;
 import java.net.Socket;
 import java.util.Scanner;
 
+/**
+ * 客户端
+ * 获取时间
+ */
 public class TimeClient {
 
     public void connect(String ip, int port) {

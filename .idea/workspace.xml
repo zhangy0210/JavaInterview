@@ -1,7 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c278275a-08f6-4f2d-adbb-e09c79b83545" name="Default Changelist" comment="" />
+    <list default="true" id="a12e9494-5bc6-4fa2-99c2-cc7fb8154f77" name="Default Changelist" comment="ThreadLocal&#10;BIO">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/networkprogramming/netty/calculate/CalcClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/networkprogramming/netty/calculate/CalcClientHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/networkprogramming/netty/calculate/CalcServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/networkprogramming/netty/calculate/CalcServerHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/networkprogramming/netty/echo/EchoServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/networkprogramming/testaio/TimeClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/networkprogramming/testaio/TimeServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/networkprogramming/testnio/TimeClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/networkprogramming/testnio/TimeServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/networkprogramming/testbio/TimeClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/networkprogramming/testbio/TimeClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/networkprogramming/testbio/TimeServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/networkprogramming/testbio/TimeServer.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -12,6 +30,16 @@
       <list>
         <option value="Class" />
       </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="C:\Users\Administrator\IdeaProjects\JavaInteview\.idea" />
+      </set>
     </option>
   </component>
   <component name="MavenImportPreferences">
@@ -28,6 +56,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -40,42 +69,80 @@
       <recent name="C:\Users\Administrator\IdeaProjects\JavaInterview\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.SimpleIOCTest.test">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithm.buildtree.Main" />
-      <module name="JavaInterview" />
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.CalcClient">
+    <configuration name="CalcClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="networkprogramming.netty.calculate.CalcClient" />
+      <module name="JavaInteview" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="networkprogramming.netty.calculate.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SimpleIOCTest.getBean" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JavaInterview" />
+    <configuration name="CalcServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="networkprogramming.netty.calculate.CalcServer" />
+      <module name="JavaInteview" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="spring.simpleIOC.*" />
+          <option name="PATTERN" value="networkprogramming.netty.calculate.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="spring.simpleIOC" />
-      <option name="MAIN_CLASS_NAME" value="spring.simpleIOC.SimpleIOCTest" />
-      <option name="METHOD_NAME" value="getBean" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SimpleIOCTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JavaInterview" />
+    <configuration name="EchoServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="networkprogramming.netty.echo.EchoServer" />
+      <module name="JavaInteview" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="spring.simpleIOC.*" />
+          <option name="PATTERN" value="networkprogramming.netty.echo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="spring.simpleIOC" />
-      <option name="MAIN_CLASS_NAME" value="spring.simpleIOC.SimpleIOCTest" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TimeClient (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="networkprogramming.testaio.TimeClient" />
+      <module name="JavaInteview" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="networkprogramming.testaio.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TimeServer (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="networkprogramming.testaio.TimeServer" />
+      <module name="JavaInteview" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="networkprogramming.testaio.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -144,9 +211,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.SimpleIOCTest.test" />
-        <item itemvalue="JUnit.SimpleIOCTest.getBean" />
-        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.CalcClient" />
+        <item itemvalue="Application.CalcServer" />
+        <item itemvalue="Application.EchoServer" />
+        <item itemvalue="Application.TimeClient (2)" />
+        <item itemvalue="Application.TimeServer (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -155,7 +224,7 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="c278275a-08f6-4f2d-adbb-e09c79b83545" name="Default Changelist" comment="" />
+      <changelist id="a12e9494-5bc6-4fa2-99c2-cc7fb8154f77" name="Default Changelist" comment="ThreadLocal&#10;BIO" />
       <created>1585811601285</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -166,11 +235,23 @@
       <workItem from="1586693231690" duration="5000" />
       <workItem from="1586963509406" duration="1316000" />
       <workItem from="1587034663809" duration="198000" />
+      <workItem from="1587053433096" duration="1768000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="WindowStateProjectService">
     <state x="352" y="10" key="#Project_Structure" timestamp="1586666011613">

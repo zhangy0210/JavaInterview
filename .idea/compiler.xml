@@ -8,6 +8,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="JavaInterview" />
+        <module name="JavaInteview" />
       </profile>
     </annotationProcessing>
   </component>
