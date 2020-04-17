@@ -1,4 +1,4 @@
-package algorithm.buildtree;
+package algorithm.leetcode.buildtree;
 
 import java.util.*;
 public class Main{

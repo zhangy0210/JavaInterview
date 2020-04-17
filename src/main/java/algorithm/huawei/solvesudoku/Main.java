@@ -1,4 +1,4 @@
-package algorithm.algorithm.huawei.solvesudoku;
+package algorithm.huawei.solvesudoku;
 
 import java.util.*;
 public class Main{

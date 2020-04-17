@@ -1,4 +1,4 @@
-package algorithm.sudokusolver;
+package algorithm.leetcode.sudokusolver;
 
 public class Solution {
 

@@ -1,4 +1,4 @@
-package algorithm.algorithm.huawei.numstoips;
+package algorithm.huawei.numstoips;
 
 /**
  * 十进制IP与常见IP的互相转换
