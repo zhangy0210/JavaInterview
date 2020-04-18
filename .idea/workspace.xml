@@ -2,22 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c278275a-08f6-4f2d-adbb-e09c79b83545" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/huawei/calc24/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/huawei/calc24/Main1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/huawei/longestcommonsubstring/Main1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/leetcode/containerwithmostwater/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/leetcode/longestCommonSubsequence/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/networkprogramming/netty/httpserver/EchoServerHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/networkprogramming/netty/httpserver/HttpServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/networkprogramming/netty/statichttpserver/HttpServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/networkprogramming/netty/statichttpserver/HttpServerHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/404.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/500.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/css/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/huawei/longestcontinuousbit1/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/networkprogramming/netty/calculate/CalcClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/networkprogramming/netty/calculate/CalcClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/networkprogramming/netty/calculate/CalcClientHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/networkprogramming/netty/calculate/CalcClientHandler.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -233,7 +219,7 @@
       <workItem from="1587053433096" duration="1942000" />
       <workItem from="1587089504577" duration="4326000" />
       <workItem from="1587126392252" duration="2709000" />
-      <workItem from="1587188057383" duration="4789000" />
+      <workItem from="1587188057383" duration="5589000" />
     </task>
     <task id="LOCAL-00001" summary="NIO&#10;AIO&#10;使用Netty实现一个计算公式的客户端和服务端">
       <created>1587055281094</created>
@@ -249,7 +235,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587117338718</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="几道编程题">
+      <created>1587201640326</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1587201640326</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -271,7 +264,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="NIO&#10;AIO&#10;使用Netty实现一个计算公式的客户端和服务端" />
     <MESSAGE value="编程题" />
-    <option name="LAST_COMMIT_MESSAGE" value="编程题" />
+    <MESSAGE value="几道编程题" />
+    <option name="LAST_COMMIT_MESSAGE" value="几道编程题" />
   </component>
   <component name="WindowStateProjectService">
     <state x="352" y="10" key="#Project_Structure" timestamp="1586666011613">
@@ -286,10 +280,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="565" y="148" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1587128152497" />
-    <state x="0" y="0" key="CommitChangelistDialog2" timestamp="1587117337005">
+    <state x="0" y="0" key="CommitChangelistDialog2" timestamp="1587201639002">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="0" y="0" key="CommitChangelistDialog2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1587117337005" />
+    <state x="0" y="0" key="CommitChangelistDialog2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1587201639002" />
     <state width="1840" height="296" key="GridCell.Tab.0.bottom" timestamp="1587201583112">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -326,10 +320,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="266" y="0" key="SettingsEditor/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1587106168068" />
-    <state x="352" y="122" key="Vcs.Push.Dialog.v2" timestamp="1587201607446">
+    <state x="352" y="122" key="Vcs.Push.Dialog.v2" timestamp="1587201645138">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="352" y="122" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1587201607446" />
+    <state x="352" y="122" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1587201645138" />
     <state x="458" y="259" key="com.intellij.ide.util.TipDialog" timestamp="1587188057571">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
